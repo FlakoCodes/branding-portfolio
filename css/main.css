@@ -1,0 +1,13 @@
+@import "cssreset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
+@import "top-section.css";
+
+
+body{
+    padding: 0px 50px 0 50px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
