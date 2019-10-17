@@ -144,3 +144,13 @@
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+
+/*Tablets*/
+@media only screen and (max-width:960px){
+
+}
+
+/*phones*/
+@media only screen and (max-width:767px){
+
+}
