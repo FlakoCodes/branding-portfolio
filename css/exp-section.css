@@ -135,12 +135,47 @@
 
 /*Tablets*/
 @media only screen and (max-width:960px){
-
+    #exp-section .large-title{
+        color: #c6e4ff;
+        font-weight: 900;
+        font-size: 3rem;
+        left: 0;
+    }
+    #exp-section .exp-container .large-icons{
+        position: relative;
+        top: -25px;
+    }
+    #exp-section .exp-container .large-icons .square {
+        border: 30px solid #52b8ff;
+        padding: 5px;
+        display: inline-block;
+        position: relative;
+        top: 122px;
+        left: 48px;
+    }
 }
 
 /*phones*/
 @media only screen and (max-width:767px){
-
+    #exp-section .large-title{
+        color: #c6e4ff;
+        font-weight: 900;
+        font-size: 2.5rem;
+        left: 0;
+    }
+    #exp-section .exp-container{
+        grid-template-columns: 1fr;
+    }
+    #exp-section .exp-container .large-icons{
+        display: none;
+    }
+    #exp-section .exp-container .info .info-box h4{
+        font-size: .9rem;
+    }
+    #exp-section .exp-container .info .info-box .date{
+        font-size: .8rem;
+    }
+}
 }
 
 
